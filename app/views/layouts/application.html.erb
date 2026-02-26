@@ -24,6 +24,15 @@
   </head>
 
   <body>
+    <nav class="navbar">
+      <%= link_to root_path do %>
+        <span class="navbar-logo">🍿</span>
+      <% end %>
+      <div class="navbar-links">
+        <%= link_to "My lists", lists_path %>
+        <%= link_to "New list", new_list_path %>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>

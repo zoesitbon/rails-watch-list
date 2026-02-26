@@ -4,5 +4,6 @@
 //= link_directory ../stylesheets .css
 //= link popper.js
 //= link bootstrap.min.js
-
+//= link bootstrap.js
+//= link @popperjs--core.js
 
